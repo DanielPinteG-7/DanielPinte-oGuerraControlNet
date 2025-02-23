@@ -1,0 +1,38 @@
+.producto-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  
+  .producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.2);
+  }
+  
+  .producto-nombre {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .producto-precio {
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    font-weight: bold;
+  }
+  
+  .favorito-btn {
+    background: none;
+    border: none;
+    color: #FF4081;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .favorito-btn:hover {
+    transform: scale(1.1);
+  }
